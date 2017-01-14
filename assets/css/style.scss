@@ -19,3 +19,12 @@ $pic-size: 150px;
 		height: $pic-size;
 		width: $pic-size;
 }
+
+div .CodeMirror-scroll {
+		height: auto;
+}
+
+div .CodeMirror {
+		height: auto;
+}
+

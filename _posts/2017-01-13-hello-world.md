@@ -1,8 +1,13 @@
 ---
-
+layout: post
+title: Hello World
+date: 2017-01-13
+categories: tests
 ---
 
-# Hello World
+```clojure
+(println "Random code snipppet")
+```
 
 In today's world, the consolidation of structures forces us to analyze the investment in technical recycling. Evidently, the valuation of subjective factors extends the scope and importance of normative rules of conduct. Care in identifying critical points in the challenging global scenario promotes leverage of the impact on decision-making agility. The incentive to the technological advance, as well as the continuous development of different forms of action points to the improvement of the innovative management of which we are part.
 

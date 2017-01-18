@@ -8,6 +8,9 @@
 			{{ site.title }}
 		</title>
 
+		<!-- Place this tag in your head or just before your close body tag. -->
+<script async src="https://buttons.github.io/buttons.js"></script>
+
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 		<link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/app.klipse.tech/css/codemirror.css">
 		<link rel="stylesheet" type="text/css" href="{{ 'assets/css/highlight.css' | relative_url }}">
@@ -33,9 +36,12 @@
 
 				<p>
 					<img class="img-circle" alt="Look at me!" src="{{ site.avatar | absolute_url  }}"/>
+					<div class="star">
+						<a class="github-button" href="https://github.com/MrDallOca/mrdalloca.github.io" data-icon="octicon-star" data-style="mega" data-count-href="/MrDallOca/mrdalloca.github.io/stargazers" data-count-api="/repos/MrDallOca/mrdalloca.github.io#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star MrDallOca/mrdalloca.github.io on GitHub">Star</a>
+						</div>
 				</p>
 
-				<br><br>
+				<br>
 				<p>{{ site.description | default: site.github.project_tagline }}</p>
 				
       </header>

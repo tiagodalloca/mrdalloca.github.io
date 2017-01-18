@@ -5,9 +5,23 @@
 
 $pic-size: 150px;
 
+
+pre {
+		background-color: transparent;
+		padding: 0 0;
+}
+
+section {
+		width: 600px;
+}
+
+header {
+		width: 240px;
+}
+
 .img-circle {
 
-		@media print, screen and (max-width: 480px){
+		@media print, screen and (max-width: 960px){
 				margin-left: 50%;
 				transform: translateX(-50%);
     }

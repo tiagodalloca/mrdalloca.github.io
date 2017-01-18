@@ -5,6 +5,7 @@ avatar: /assets/robot.png
 theme: jekyll-theme-minimal
 gems:
    - jemoji
+   - jekyll-seo-tag
 
 repository: MrDallOca/mrdalloca.github.io
 

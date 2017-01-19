@@ -58,15 +58,23 @@ Here follows the spec that meets the requirements of map-bindings
                         :list-of-forms ::list-of-forms))
 
 (s/def ::map-bindings (s/+ ::binding))
+```
 
-(s/explain ::map-bindings
+Does it work?
+
+We'll find out.
+
+
+```klipse
+(s/conform ::map-bindings
            '("CTRL-c s" ((println "You pressed CTRL-c s!")
                          (println "Yes, you!"))
              "CTRL-s"   ((println "You pressed CTRL-s!")
                          (println "Are you trying to save a file?"))))
 ```
 
+Oh my, it does work!
+
 You can find the source code of map-binding and it's complete spec [here](github.com/MrDallOca/spec-examples)
 
-Thanks!
 

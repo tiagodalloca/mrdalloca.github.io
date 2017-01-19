@@ -75,6 +75,6 @@ We'll find out.
 
 Oh my, it does work!
 
-You can find the source code of map-binding and it's complete spec [here](github.com/MrDallOca/spec-examples)
+You can find the source code of map-binding and it's complete spec [here](https://github.com/MrDallOca/spec-examples)
 
 
